@@ -1,6 +1,5 @@
 let money,
-    name,
-    time;
+    name;
 
 function start() {
     money = prompt('Каков ваш бюджет?');
@@ -29,7 +28,7 @@ function addGoods() {
         }
     }
 }
-//addGoods();
+addGoods();
 
 function workTime(time) {
     if (time < 0 && time > 24) {
